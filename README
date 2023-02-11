@@ -1,0 +1,11 @@
+!!!IMPORTANT
+vi.sh script will overwrite you .vimrc, backup it first
+
+1. apt update
+2. compile 9.0 with script vi.sh
+3. install plugins
+  $ vim ~/.vimrc
+  ## in vim
+    :PlugInstall ## wait complete
+4. add clangd and node to you PATH
+5. OK
